@@ -85,8 +85,8 @@
       "path---components-button-examples-full-3f12076ca29e5b973bd5.js.map"
     ],
     "path---": [
-      "path----e2e39d4ea00bd3f74e48.js",
-      "path----e2e39d4ea00bd3f74e48.js.map"
+      "path----0029ffe876178ded067f.js",
+      "path----0029ffe876178ded067f.js.map"
     ],
     "path---layouts-grid-examples": [
       "path---layouts-grid-examples-9e46cd502df93acda0b1.js",
@@ -224,19 +224,19 @@
       "path---layouts-page-examples-8ea9c52b29085e815e85.js",
       "path---layouts-page-examples-8ea9c52b29085e815e85.js.map"
     ],
+    "component---src-patternfly-components-card-examples-index-js": [
+      "component---src-patternfly-components-card-examples-index-js-2937fe41664b1e2a6b8f.js",
+      "component---src-patternfly-components-card-examples-index-js-2937fe41664b1e2a6b8f.js.map"
+    ],
     "component---src-site-layouts-index-js": [
-      "component---src-site-layouts-index-js-bc22c9cefd898a230a4e.js",
-      "component---src-site-layouts-index-js-bc22c9cefd898a230a4e.js.map"
+      "component---src-site-layouts-index-js-ce4e5b113556ba2bb1ad.js",
+      "component---src-site-layouts-index-js-ce4e5b113556ba2bb1ad.js.map"
     ],
     "commons": [
       "commons-053147ce786274fc1837.js",
       "build-js-styles.css",
       "commons-053147ce786274fc1837.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---components-box-examples": [
-      "path---components-box-examples-9e7ff87cf1525e491bd7.js",
-      "path---components-box-examples-9e7ff87cf1525e491bd7.js.map"
     ],
     "component---src-patternfly-components-modal-box-examples-index-js": [
       "component---src-patternfly-components-modal-box-examples-index-js-bf24835e22f903fd44ef.js",
@@ -294,10 +294,6 @@
       "component---src-patternfly-components-badge-examples-index-js-ae9fa8f2a1ba0b7e5fbb.js",
       "component---src-patternfly-components-badge-examples-index-js-ae9fa8f2a1ba0b7e5fbb.js.map"
     ],
-    "path---components-box-examples-full": [
-      "path---components-box-examples-full-9e7ff87cf1525e491bd7.js",
-      "path---components-box-examples-full-9e7ff87cf1525e491bd7.js.map"
-    ],
     "path---layouts-gallery-examples-full": [
       "path---layouts-gallery-examples-full-ee25c37064d1c95fcb65.js",
       "path---layouts-gallery-examples-full-ee25c37064d1c95fcb65.js.map"
@@ -315,16 +311,12 @@
       "path---components-form-examples-full-b33ddbb3299a54b39964.js.map"
     ],
     "app": [
-      "app-a88515b888505d3a37d8.js",
-      "app-a88515b888505d3a37d8.js.map"
+      "app-3810ac207b4d2b98f072.js",
+      "app-3810ac207b4d2b98f072.js.map"
     ],
     "path---components-content-examples": [
       "path---components-content-examples-7bee90a4351a1ee1c1b7.js",
       "path---components-content-examples-7bee90a4351a1ee1c1b7.js.map"
-    ],
-    "component---src-patternfly-components-box-examples-index-js": [
-      "component---src-patternfly-components-box-examples-index-js-a76afb8ada95c2ac14e1.js",
-      "component---src-patternfly-components-box-examples-index-js-a76afb8ada95c2ac14e1.js.map"
     ],
     "path---components-alert-examples-full": [
       "path---components-alert-examples-full-e678edddd385c168fdcb.js",
@@ -358,9 +350,13 @@
       "component---src-patternfly-layouts-level-examples-index-js-3158c31e344e85276ced.js",
       "component---src-patternfly-layouts-level-examples-index-js-3158c31e344e85276ced.js.map"
     ],
+    "path---components-card-examples": [
+      "path---components-card-examples-acad82c008443f75ac0c.js",
+      "path---components-card-examples-acad82c008443f75ac0c.js.map"
+    ],
     "path---contribution": [
-      "path---contribution-a6569d06d633aa02850f.js",
-      "path---contribution-a6569d06d633aa02850f.js.map"
+      "path---contribution-11fe54e9211dc6e8622a.js",
+      "path---contribution-11fe54e9211dc6e8622a.js.map"
     ],
     "path---layouts-level-examples-full": [
       "path---layouts-level-examples-full-243200bfb5c0f1af8d8a.js",
@@ -381,6 +377,10 @@
     "component---src-patternfly-layouts-page-examples-index-js": [
       "component---src-patternfly-layouts-page-examples-index-js-847744dc3010bd08b765.js",
       "component---src-patternfly-layouts-page-examples-index-js-847744dc3010bd08b765.js.map"
+    ],
+    "path---components-card-examples-full": [
+      "path---components-card-examples-full-acad82c008443f75ac0c.js",
+      "path---components-card-examples-full-acad82c008443f75ac0c.js.map"
     ],
     "component---src-patternfly-components-background-image-examples-index-js": [
       "component---src-patternfly-components-background-image-examples-index-js-fa1127eb826c511dfbc5.js",

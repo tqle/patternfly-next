@@ -1,2 +1,0 @@
-webpackJsonp([0x9e9f0043a963],{542:function(o,t){o.exports={pathContext:{type:"component",category:"components",slug:"Box",name:"Box",title:"Box"}}}});
-//# sourceMappingURL=path---components-box-examples-9e7ff87cf1525e491bd7.js.map
