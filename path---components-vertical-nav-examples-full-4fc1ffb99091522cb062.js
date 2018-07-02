@@ -1,2 +1,2 @@
-webpackJsonp([42890102396994],{569:function(t,e){t.exports={pathContext:{type:"component",category:"components",slug:"VerticalNav",name:"VerticalNav",title:"Verticalnav"}}}});
+webpackJsonp([42890102396994],{577:function(t,e){t.exports={pathContext:{type:"component",category:"components",slug:"VerticalNav",name:"VerticalNav",title:"Verticalnav"}}}});
 //# sourceMappingURL=path---components-vertical-nav-examples-full-4fc1ffb99091522cb062.js.map
