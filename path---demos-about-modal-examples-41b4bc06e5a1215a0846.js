@@ -1,2 +1,2 @@
-webpackJsonp([0xf370a33ca22a],{701:function(o,t){o.exports={pathContext:{type:"demo",category:"demos",slug:"AboutModal",name:"AboutModal",title:"Aboutmodal"}}}});
+webpackJsonp([0xf370a33ca22a],{679:function(o,t){o.exports={pathContext:{type:"demo",category:"demos",slug:"AboutModal",name:"AboutModal",title:"Aboutmodal"}}}});
 //# sourceMappingURL=path---demos-about-modal-examples-41b4bc06e5a1215a0846.js.map
