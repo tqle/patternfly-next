@@ -125,8 +125,8 @@
       "path---components-button-examples-full-3f12076ca29e5b973bd5.js.map"
     ],
     "path---": [
-      "path----2e90aebc1d3702313efd.js",
-      "path----2e90aebc1d3702313efd.js.map"
+      "path----170b0384c370dc78f334.js",
+      "path----170b0384c370dc78f334.js.map"
     ],
     "path---layouts-grid-examples": [
       "path---layouts-grid-examples-9e46cd502df93acda0b1.js",
@@ -212,10 +212,6 @@
       "path---modifiers-d71ffaee28a48e948408.js",
       "path---modifiers-d71ffaee28a48e948408.js.map"
     ],
-    "path---layouts-alignment-examples": [
-      "path---layouts-alignment-examples-bc4468fad8d0dc0dd285.js",
-      "path---layouts-alignment-examples-bc4468fad8d0dc0dd285.js.map"
-    ],
     "path---components-dropdown-examples-full": [
       "path---components-dropdown-examples-full-f66a7ac8baa3ad2a92b9.js",
       "path---components-dropdown-examples-full-f66a7ac8baa3ad2a92b9.js.map"
@@ -233,8 +229,8 @@
       "path---components-input-group-examples-4c68c468dcb8f4433dbd.js.map"
     ],
     "path---layouts-docs-docs": [
-      "path---layouts-docs-docs-08edfffda833e8bcb76b.js",
-      "path---layouts-docs-docs-08edfffda833e8bcb76b.js.map"
+      "path---layouts-docs-docs-e7482fd4296daef2d916.js",
+      "path---layouts-docs-docs-e7482fd4296daef2d916.js.map"
     ],
     "path---components-dropdown-examples": [
       "path---components-dropdown-examples-f66a7ac8baa3ad2a92b9.js",
@@ -321,8 +317,8 @@
       "component---src-patternfly-components-card-examples-index-js-06a2e9c85e8f7f5d34b3.js.map"
     ],
     "component---src-site-layouts-index-js": [
-      "component---src-site-layouts-index-js-e6ad70b169a53584576c.js",
-      "component---src-site-layouts-index-js-e6ad70b169a53584576c.js.map"
+      "component---src-site-layouts-index-js-2eb213cfc39974ff87b5.js",
+      "component---src-site-layouts-index-js-2eb213cfc39974ff87b5.js.map"
     ],
     "commons": [
       "commons-7834f1ce2525fab18ec2.js",
@@ -390,14 +386,6 @@
       "component---src-patternfly-utilities-flex-examples-index-js-c4016d79e5e274327e4d.js",
       "component---src-patternfly-utilities-flex-examples-index-js-c4016d79e5e274327e4d.js.map"
     ],
-    "path---layouts-alignment-examples-full": [
-      "path---layouts-alignment-examples-full-bc4468fad8d0dc0dd285.js",
-      "path---layouts-alignment-examples-full-bc4468fad8d0dc0dd285.js.map"
-    ],
-    "component---src-patternfly-layouts-alignment-examples-index-js": [
-      "component---src-patternfly-layouts-alignment-examples-index-js-9f1aa6d4d0765aff104c.js",
-      "component---src-patternfly-layouts-alignment-examples-index-js-9f1aa6d4d0765aff104c.js.map"
-    ],
     "path---components-content-examples-full": [
       "path---components-content-examples-full-7bee90a4351a1ee1c1b7.js",
       "path---components-content-examples-full-7bee90a4351a1ee1c1b7.js.map"
@@ -435,8 +423,8 @@
       "path---components-form-examples-full-b33ddbb3299a54b39964.js.map"
     ],
     "app": [
-      "app-f8ffebf31de73359eaa8.js",
-      "app-f8ffebf31de73359eaa8.js.map"
+      "app-08195d900c5df579877f.js",
+      "app-08195d900c5df579877f.js.map"
     ],
     "path---utilities-alignment-examples": [
       "path---utilities-alignment-examples-39a3d5d7a55b8b961a20.js",
