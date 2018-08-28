@@ -48,10 +48,6 @@
       "path---utilities-display-examples-full-176cba7102bd7d19ea2f.js",
       "path---utilities-display-examples-full-176cba7102bd7d19ea2f.js.map"
     ],
-    "path---components-form-controls-examples-full": [
-      "path---components-form-controls-examples-full-fe2f02ff215bcb33fb77.js",
-      "path---components-form-controls-examples-full-fe2f02ff215bcb33fb77.js.map"
-    ],
     "path---utilities-spacing-examples-full": [
       "path---utilities-spacing-examples-full-07a88faa1f0d3f7ffa05.js",
       "path---utilities-spacing-examples-full-07a88faa1f0d3f7ffa05.js.map"
@@ -77,8 +73,8 @@
       "component---src-patternfly-layouts-grid-examples-index-js-8b2abd582856a32a2755.js.map"
     ],
     "component---src-patternfly-components-form-examples-index-js": [
-      "component---src-patternfly-components-form-examples-index-js-c345a0c5fe832101a573.js",
-      "component---src-patternfly-components-form-examples-index-js-c345a0c5fe832101a573.js.map"
+      "component---src-patternfly-components-form-examples-index-js-69c39b652df4db54e47a.js",
+      "component---src-patternfly-components-form-examples-index-js-69c39b652df4db54e47a.js.map"
     ],
     "component---src-patternfly-components-alert-examples-index-js": [
       "component---src-patternfly-components-alert-examples-index-js-62443562968cbcc8220a.js",
@@ -113,8 +109,8 @@
       "path---utilities-flex-examples-be85c82747fe9819585b.js.map"
     ],
     "path---components-docs-docs": [
-      "path---components-docs-docs-2f2a23fc4b88d7fac44b.js",
-      "path---components-docs-docs-2f2a23fc4b88d7fac44b.js.map"
+      "path---components-docs-docs-0cf30fb42f7218277baa.js",
+      "path---components-docs-docs-0cf30fb42f7218277baa.js.map"
     ],
     "path---demos-dashboard-full": [
       "path---demos-dashboard-full-5cda00dbf90d62d0d6d2.js",
@@ -133,8 +129,8 @@
       "path---components-button-examples-full-3f12076ca29e5b973bd5.js.map"
     ],
     "path---": [
-      "path----fcb62994b5248decc090.js",
-      "path----fcb62994b5248decc090.js.map"
+      "path----fc2fb0bf7b0de981e062.js",
+      "path----fc2fb0bf7b0de981e062.js.map"
     ],
     "path---components-brand-examples": [
       "path---components-brand-examples-ef8b2e2284eab5db89e2.js",
@@ -172,6 +168,10 @@
       "path---components-about-modal-box-examples-aa5286b6b110e1e75cb2.js",
       "path---components-about-modal-box-examples-aa5286b6b110e1e75cb2.js.map"
     ],
+    "component---src-patternfly-components-form-control-examples-index-js": [
+      "component---src-patternfly-components-form-control-examples-index-js-c472fcec586a0ebbe33c.js",
+      "component---src-patternfly-components-form-control-examples-index-js-c472fcec586a0ebbe33c.js.map"
+    ],
     "path---demos-docs-docs": [
       "path---demos-docs-docs-32a2b5fed7d70a576096.js",
       "path---demos-docs-docs-32a2b5fed7d70a576096.js.map"
@@ -195,10 +195,6 @@
     "path---demos-simple-form-demo-examples": [
       "path---demos-simple-form-demo-examples-ad571fa50334c5dd0074.js",
       "path---demos-simple-form-demo-examples-ad571fa50334c5dd0074.js.map"
-    ],
-    "component---src-patternfly-components-form-controls-examples-index-js": [
-      "component---src-patternfly-components-form-controls-examples-index-js-8f10e4efa7373513dfc4.js",
-      "component---src-patternfly-components-form-controls-examples-index-js-8f10e4efa7373513dfc4.js.map"
     ],
     "path---utilities-flex-examples-full": [
       "path---utilities-flex-examples-full-be85c82747fe9819585b.js",
@@ -341,13 +337,17 @@
       "component---src-patternfly-components-card-examples-index-js-af3efb70769ebb0f1b76.js.map"
     ],
     "component---src-site-layouts-index-js": [
-      "component---src-site-layouts-index-js-eb3841904be2e2ecd0d2.js",
-      "component---src-site-layouts-index-js-eb3841904be2e2ecd0d2.js.map"
+      "component---src-site-layouts-index-js-50cb47eedb637d6f62a3.js",
+      "component---src-site-layouts-index-js-50cb47eedb637d6f62a3.js.map"
+    ],
+    "path---components-form-control-examples": [
+      "path---components-form-control-examples-3999f0d5cbf2470b2c47.js",
+      "path---components-form-control-examples-3999f0d5cbf2470b2c47.js.map"
     ],
     "commons": [
-      "commons-38682e4cbe5b7fe00737.js",
+      "commons-d79ed4c4e4fe80f85a61.js",
       "build-js-styles.css",
-      "commons-38682e4cbe5b7fe00737.js.map",
+      "commons-d79ed4c4e4fe80f85a61.js.map",
       "build-js-styles.css.map"
     ],
     "path---components-about-modal-box-examples-full": [
@@ -422,10 +422,6 @@
       "path---components-content-examples-full-7bee90a4351a1ee1c1b7.js",
       "path---components-content-examples-full-7bee90a4351a1ee1c1b7.js.map"
     ],
-    "path---components-form-controls-examples": [
-      "path---components-form-controls-examples-fe2f02ff215bcb33fb77.js",
-      "path---components-form-controls-examples-fe2f02ff215bcb33fb77.js.map"
-    ],
     "path---layouts-level-examples": [
       "path---layouts-level-examples-243200bfb5c0f1af8d8a.js",
       "path---layouts-level-examples-243200bfb5c0f1af8d8a.js.map"
@@ -455,8 +451,8 @@
       "path---components-form-examples-full-b33ddbb3299a54b39964.js.map"
     ],
     "app": [
-      "app-49ceba379bc8c3eaa2fe.js",
-      "app-49ceba379bc8c3eaa2fe.js.map"
+      "app-de8be725b5df6647ac28.js",
+      "app-de8be725b5df6647ac28.js.map"
     ],
     "path---utilities-alignment-examples": [
       "path---utilities-alignment-examples-39a3d5d7a55b8b961a20.js",
@@ -479,8 +475,8 @@
       "component---src-patternfly-utilities-accessibility-examples-index-js-59a37a113e33a8104d58.js.map"
     ],
     "component---src-patternfly-components-input-group-examples-index-js": [
-      "component---src-patternfly-components-input-group-examples-index-js-ea44a9743d22e344afa1.js",
-      "component---src-patternfly-components-input-group-examples-index-js-ea44a9743d22e344afa1.js.map"
+      "component---src-patternfly-components-input-group-examples-index-js-baa2b8ebff9bb3bfa210.js",
+      "component---src-patternfly-components-input-group-examples-index-js-baa2b8ebff9bb3bfa210.js.map"
     ],
     "component---src-patternfly-demos-card-upgrade-examples-examples-index-js": [
       "component---src-patternfly-demos-card-upgrade-examples-examples-index-js-4d4f156faec741453cc7.js",
@@ -561,6 +557,10 @@
     "component---src-patternfly-layouts-page-examples-index-js": [
       "component---src-patternfly-layouts-page-examples-index-js-da31019e2bee24eaf96a.js",
       "component---src-patternfly-layouts-page-examples-index-js-da31019e2bee24eaf96a.js.map"
+    ],
+    "path---components-form-control-examples-full": [
+      "path---components-form-control-examples-full-3999f0d5cbf2470b2c47.js",
+      "path---components-form-control-examples-full-3999f0d5cbf2470b2c47.js.map"
     ],
     "path---components-card-examples-full": [
       "path---components-card-examples-full-acad82c008443f75ac0c.js",
