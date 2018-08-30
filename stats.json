@@ -60,10 +60,6 @@
       "component---src-patternfly-utilities-spacing-examples-index-js-24e8ab725037d93eea18.js",
       "component---src-patternfly-utilities-spacing-examples-index-js-24e8ab725037d93eea18.js.map"
     ],
-    "component---src-patternfly-demos-dashboard-index-js": [
-      "component---src-patternfly-demos-dashboard-index-js-2316524899aece9895aa.js",
-      "component---src-patternfly-demos-dashboard-index-js-2316524899aece9895aa.js.map"
-    ],
     "path---demos-modal-examples-full": [
       "path---demos-modal-examples-full-e52b9b34d994c8a8f5d5.js",
       "path---demos-modal-examples-full-e52b9b34d994c8a8f5d5.js.map"
@@ -109,12 +105,8 @@
       "path---utilities-flex-examples-be85c82747fe9819585b.js.map"
     ],
     "path---components-docs-docs": [
-      "path---components-docs-docs-0cf30fb42f7218277baa.js",
-      "path---components-docs-docs-0cf30fb42f7218277baa.js.map"
-    ],
-    "path---demos-dashboard-full": [
-      "path---demos-dashboard-full-5cda00dbf90d62d0d6d2.js",
-      "path---demos-dashboard-full-5cda00dbf90d62d0d6d2.js.map"
+      "path---components-docs-docs-2f2a23fc4b88d7fac44b.js",
+      "path---components-docs-docs-2f2a23fc4b88d7fac44b.js.map"
     ],
     "path---utilities-docs-docs": [
       "path---utilities-docs-docs-93c244550ca272f1da9a.js",
@@ -129,8 +121,8 @@
       "path---components-button-examples-full-3f12076ca29e5b973bd5.js.map"
     ],
     "path---": [
-      "path----fc2fb0bf7b0de981e062.js",
-      "path----fc2fb0bf7b0de981e062.js.map"
+      "path----58a3beca936cdd87ebc6.js",
+      "path----58a3beca936cdd87ebc6.js.map"
     ],
     "path---components-brand-examples": [
       "path---components-brand-examples-ef8b2e2284eab5db89e2.js",
@@ -337,8 +329,8 @@
       "component---src-patternfly-components-card-examples-index-js-af3efb70769ebb0f1b76.js.map"
     ],
     "component---src-site-layouts-index-js": [
-      "component---src-site-layouts-index-js-50cb47eedb637d6f62a3.js",
-      "component---src-site-layouts-index-js-50cb47eedb637d6f62a3.js.map"
+      "component---src-site-layouts-index-js-e1a877e2fc12260feea5.js",
+      "component---src-site-layouts-index-js-e1a877e2fc12260feea5.js.map"
     ],
     "path---components-form-control-examples": [
       "path---components-form-control-examples-3999f0d5cbf2470b2c47.js",
@@ -369,10 +361,6 @@
     "path---404-html": [
       "path---404-html-a502f2399c186c170879.js",
       "path---404-html-a502f2399c186c170879.js.map"
-    ],
-    "path---demos-dashboard": [
-      "path---demos-dashboard-5cda00dbf90d62d0d6d2.js",
-      "path---demos-dashboard-5cda00dbf90d62d0d6d2.js.map"
     ],
     "path---components-background-image-examples": [
       "path---components-background-image-examples-5d1d49feb524d648b2f9.js",
@@ -451,8 +439,8 @@
       "path---components-form-examples-full-b33ddbb3299a54b39964.js.map"
     ],
     "app": [
-      "app-de8be725b5df6647ac28.js",
-      "app-de8be725b5df6647ac28.js.map"
+      "app-22ff74343f4de8929d88.js",
+      "app-22ff74343f4de8929d88.js.map"
     ],
     "path---utilities-alignment-examples": [
       "path---utilities-alignment-examples-39a3d5d7a55b8b961a20.js",
