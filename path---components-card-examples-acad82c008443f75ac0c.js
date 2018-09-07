@@ -1,2 +1,2 @@
-webpackJsonp([0xea08d6512f50],{762:function(t,e){t.exports={pathContext:{type:"component",category:"components",slug:"Card",name:"Card",title:"Card"}}}});
+webpackJsonp([0xea08d6512f50],{769:function(t,e){t.exports={pathContext:{type:"component",category:"components",slug:"Card",name:"Card",title:"Card"}}}});
 //# sourceMappingURL=path---components-card-examples-acad82c008443f75ac0c.js.map
