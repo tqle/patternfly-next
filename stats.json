@@ -92,6 +92,10 @@
       "path---layouts-bullseye-examples-1a88bd2221a3788c84f9.js",
       "path---layouts-bullseye-examples-1a88bd2221a3788c84f9.js.map"
     ],
+    "path---components-table-examples-full": [
+      "path---components-table-examples-full-86c81879cb37304e7cd2.js",
+      "path---components-table-examples-full-86c81879cb37304e7cd2.js.map"
+    ],
     "path---demos-login-page-examples": [
       "path---demos-login-page-examples-f4b04fff6ee66cf7f0df.js",
       "path---demos-login-page-examples-f4b04fff6ee66cf7f0df.js.map"
@@ -109,8 +113,8 @@
       "component---src-patternfly-components-button-examples-index-js-d5a1c86b0754c8763de6.js.map"
     ],
     "component---src-site-layouts-upgrade-js": [
-      "component---src-site-layouts-upgrade-js-9d41c6bd1a6d59be1cca.js",
-      "component---src-site-layouts-upgrade-js-9d41c6bd1a6d59be1cca.js.map"
+      "component---src-site-layouts-upgrade-js-77a56ad17289d7f6392b.js",
+      "component---src-site-layouts-upgrade-js-77a56ad17289d7f6392b.js.map"
     ],
     "path---utilities-flex-examples": [
       "path---utilities-flex-examples-be85c82747fe9819585b.js",
@@ -121,8 +125,8 @@
       "path---components-docs-docs-2f2a23fc4b88d7fac44b.js.map"
     ],
     "path---utilities-docs-docs": [
-      "path---utilities-docs-docs-3c534fe9a2e3f99737a3.js",
-      "path---utilities-docs-docs-3c534fe9a2e3f99737a3.js.map"
+      "path---utilities-docs-docs-93c244550ca272f1da9a.js",
+      "path---utilities-docs-docs-93c244550ca272f1da9a.js.map"
     ],
     "component---src-patternfly-components-content-examples-index-js": [
       "component---src-patternfly-components-content-examples-index-js-76098fd4062d96b006b6.js",
@@ -133,8 +137,8 @@
       "path---components-button-examples-full-3f12076ca29e5b973bd5.js.map"
     ],
     "path---": [
-      "path----611971fcdedef4951abd.js",
-      "path----611971fcdedef4951abd.js.map"
+      "path----3e6b595775e513de58c4.js",
+      "path----3e6b595775e513de58c4.js.map"
     ],
     "path---components-brand-examples": [
       "path---components-brand-examples-ef8b2e2284eab5db89e2.js",
@@ -280,6 +284,10 @@
       "component---src-patternfly-components-title-examples-index-js-e8e37d3c485d3a391c13.js",
       "component---src-patternfly-components-title-examples-index-js-e8e37d3c485d3a391c13.js.map"
     ],
+    "path---components-table-examples": [
+      "path---components-table-examples-86c81879cb37304e7cd2.js",
+      "path---components-table-examples-86c81879cb37304e7cd2.js.map"
+    ],
     "path---components-badge-examples": [
       "path---components-badge-examples-3b83d37e7f5a5e256e68.js",
       "path---components-badge-examples-3b83d37e7f5a5e256e68.js.map"
@@ -299,6 +307,10 @@
     "path---components-modal-box-examples-full": [
       "path---components-modal-box-examples-full-d6bedab8a165849e38f8.js",
       "path---components-modal-box-examples-full-d6bedab8a165849e38f8.js.map"
+    ],
+    "component---src-patternfly-components-table-examples-index-js": [
+      "component---src-patternfly-components-table-examples-index-js-0c296d704aaa6d9a1057.js",
+      "component---src-patternfly-components-table-examples-index-js-0c296d704aaa6d9a1057.js.map"
     ],
     "path---layouts-stack-examples": [
       "path---layouts-stack-examples-b112176fe749cf7fa953.js",
@@ -377,17 +389,17 @@
       "path---components-login-box-examples-full-ab19a28d5a3a9cc4812b.js.map"
     ],
     "component---src-site-layouts-index-js": [
-      "component---src-site-layouts-index-js-b53afc6d2b40dca7c4cf.js",
-      "component---src-site-layouts-index-js-b53afc6d2b40dca7c4cf.js.map"
+      "component---src-site-layouts-index-js-8b1b98d7636dc05a9a0d.js",
+      "component---src-site-layouts-index-js-8b1b98d7636dc05a9a0d.js.map"
     ],
     "path---components-form-control-examples": [
       "path---components-form-control-examples-3999f0d5cbf2470b2c47.js",
       "path---components-form-control-examples-3999f0d5cbf2470b2c47.js.map"
     ],
     "commons": [
-      "commons-2ebbf38b8840805d1340.js",
+      "commons-4d23cbe7e1c736048567.js",
       "build-js-styles.css",
-      "commons-2ebbf38b8840805d1340.js.map",
+      "commons-4d23cbe7e1c736048567.js.map",
       "build-js-styles.css.map"
     ],
     "path---components-about-modal-box-examples-full": [
@@ -511,8 +523,8 @@
       "path---components-form-examples-full-b33ddbb3299a54b39964.js.map"
     ],
     "app": [
-      "app-7af148fd682222ee6f1a.js",
-      "app-7af148fd682222ee6f1a.js.map"
+      "app-4912a66532a20b6f67e2.js",
+      "app-4912a66532a20b6f67e2.js.map"
     ],
     "path---utilities-alignment-examples": [
       "path---utilities-alignment-examples-39a3d5d7a55b8b961a20.js",
