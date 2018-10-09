@@ -113,8 +113,8 @@
       "component---src-patternfly-components-button-examples-index-js-d353834fee19e94bfe6c.js.map"
     ],
     "component---src-site-layouts-upgrade-js": [
-      "component---src-site-layouts-upgrade-js-720295d3049148d45dd2.js",
-      "component---src-site-layouts-upgrade-js-720295d3049148d45dd2.js.map"
+      "component---src-site-layouts-upgrade-js-040c3bab23d77875bd89.js",
+      "component---src-site-layouts-upgrade-js-040c3bab23d77875bd89.js.map"
     ],
     "path---utilities-flex-examples": [
       "path---utilities-flex-examples-be85c82747fe9819585b.js",
@@ -137,8 +137,8 @@
       "path---components-button-examples-full-3f12076ca29e5b973bd5.js.map"
     ],
     "path---": [
-      "path----8788b2ffa0e34778ede3.js",
-      "path----8788b2ffa0e34778ede3.js.map"
+      "path----0f9357c5becb19fbdd2c.js",
+      "path----0f9357c5becb19fbdd2c.js.map"
     ],
     "path---components-brand-examples": [
       "path---components-brand-examples-ef8b2e2284eab5db89e2.js",
@@ -175,6 +175,10 @@
     "component---src-patternfly-components-avatar-examples-index-js": [
       "component---src-patternfly-components-avatar-examples-index-js-68f26ebfe0c2494d475e.js",
       "component---src-patternfly-components-avatar-examples-index-js-68f26ebfe0c2494d475e.js.map"
+    ],
+    "component---src-patternfly-components-switch-examples-index-js": [
+      "component---src-patternfly-components-switch-examples-index-js-9e75856a5863e7de2c97.js",
+      "component---src-patternfly-components-switch-examples-index-js-9e75856a5863e7de2c97.js.map"
     ],
     "component---src-patternfly-layouts-bullseye-examples-index-js": [
       "component---src-patternfly-layouts-bullseye-examples-index-js-1827f1b4d8ada5f37696.js",
@@ -393,8 +397,8 @@
       "path---components-login-box-examples-full-ab19a28d5a3a9cc4812b.js.map"
     ],
     "component---src-site-layouts-index-js": [
-      "component---src-site-layouts-index-js-805cf68477841772908a.js",
-      "component---src-site-layouts-index-js-805cf68477841772908a.js.map"
+      "component---src-site-layouts-index-js-16d85b854e843e0da9ad.js",
+      "component---src-site-layouts-index-js-16d85b854e843e0da9ad.js.map"
     ],
     "path---components-form-control-examples": [
       "path---components-form-control-examples-3999f0d5cbf2470b2c47.js",
@@ -445,6 +449,10 @@
     "component---src-patternfly-demos-toolbar-examples-index-js": [
       "component---src-patternfly-demos-toolbar-examples-index-js-373565668924dff2cfdc.js",
       "component---src-patternfly-demos-toolbar-examples-index-js-373565668924dff2cfdc.js.map"
+    ],
+    "path---components-switch-examples": [
+      "path---components-switch-examples-1cc37cd0e65252c95fc7.js",
+      "path---components-switch-examples-1cc37cd0e65252c95fc7.js.map"
     ],
     "path---demos-basic-forms-examples": [
       "path---demos-basic-forms-examples-d10a8d22056e1b1df5ec.js",
@@ -502,6 +510,10 @@
       "path---components-progress-examples-18d6e9735cf4751efaa1.js",
       "path---components-progress-examples-18d6e9735cf4751efaa1.js.map"
     ],
+    "path---components-switch-examples-full": [
+      "path---components-switch-examples-full-1cc37cd0e65252c95fc7.js",
+      "path---components-switch-examples-full-1cc37cd0e65252c95fc7.js.map"
+    ],
     "component---src-patternfly-upgrade-examples-card-upgrade-examples-examples-index-js": [
       "component---src-patternfly-upgrade-examples-card-upgrade-examples-examples-index-js-94bbcbc6b21c3403ed62.js",
       "component---src-patternfly-upgrade-examples-card-upgrade-examples-examples-index-js-94bbcbc6b21c3403ed62.js.map"
@@ -535,8 +547,8 @@
       "path---components-form-examples-full-b33ddbb3299a54b39964.js.map"
     ],
     "app": [
-      "app-3ecb8b91199be873a3d2.js",
-      "app-3ecb8b91199be873a3d2.js.map"
+      "app-6eade46c1f93e437901f.js",
+      "app-6eade46c1f93e437901f.js.map"
     ],
     "path---utilities-alignment-examples": [
       "path---utilities-alignment-examples-39a3d5d7a55b8b961a20.js",
