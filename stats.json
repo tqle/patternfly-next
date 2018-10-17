@@ -88,6 +88,10 @@
       "path---layouts-page-examples-full-8ea9c52b29085e815e85.js",
       "path---layouts-page-examples-full-8ea9c52b29085e815e85.js.map"
     ],
+    "component---src-patternfly-components-data-list-examples-index-js": [
+      "component---src-patternfly-components-data-list-examples-index-js-2812748fd3b36fa6e48f.js",
+      "component---src-patternfly-components-data-list-examples-index-js-2812748fd3b36fa6e48f.js.map"
+    ],
     "path---layouts-bullseye-examples": [
       "path---layouts-bullseye-examples-1a88bd2221a3788c84f9.js",
       "path---layouts-bullseye-examples-1a88bd2221a3788c84f9.js.map"
@@ -104,6 +108,10 @@
       "path---components-tooltip-examples-7586726979888038bee6.js",
       "path---components-tooltip-examples-7586726979888038bee6.js.map"
     ],
+    "path---components-data-list-examples": [
+      "path---components-data-list-examples-01480d69af7cf88441ad.js",
+      "path---components-data-list-examples-01480d69af7cf88441ad.js.map"
+    ],
     "component---src-patternfly-utilities-display-examples-index-js": [
       "component---src-patternfly-utilities-display-examples-index-js-ffe694e0400696c40a14.js",
       "component---src-patternfly-utilities-display-examples-index-js-ffe694e0400696c40a14.js.map"
@@ -113,8 +121,8 @@
       "component---src-patternfly-components-button-examples-index-js-d353834fee19e94bfe6c.js.map"
     ],
     "component---src-site-layouts-upgrade-js": [
-      "component---src-site-layouts-upgrade-js-040c3bab23d77875bd89.js",
-      "component---src-site-layouts-upgrade-js-040c3bab23d77875bd89.js.map"
+      "component---src-site-layouts-upgrade-js-cc7c46eecf4f55e585da.js",
+      "component---src-site-layouts-upgrade-js-cc7c46eecf4f55e585da.js.map"
     ],
     "path---utilities-flex-examples": [
       "path---utilities-flex-examples-be85c82747fe9819585b.js",
@@ -137,8 +145,8 @@
       "path---components-button-examples-full-3f12076ca29e5b973bd5.js.map"
     ],
     "path---": [
-      "path----0f9357c5becb19fbdd2c.js",
-      "path----0f9357c5becb19fbdd2c.js.map"
+      "path----034405ea901c6e7033c8.js",
+      "path----034405ea901c6e7033c8.js.map"
     ],
     "path---components-brand-examples": [
       "path---components-brand-examples-ef8b2e2284eab5db89e2.js",
@@ -197,8 +205,8 @@
       "component---src-patternfly-components-form-control-examples-index-js-83a5375d56db55831ce8.js.map"
     ],
     "path---demos-docs-docs": [
-      "path---demos-docs-docs-f70c5d8c88ff054cf947.js",
-      "path---demos-docs-docs-f70c5d8c88ff054cf947.js.map"
+      "path---demos-docs-docs-28edad8f8e275bb4d431.js",
+      "path---demos-docs-docs-28edad8f8e275bb4d431.js.map"
     ],
     "path---components-check-examples-full": [
       "path---components-check-examples-full-0576a95122450ae2b21b.js",
@@ -397,8 +405,8 @@
       "path---components-login-box-examples-full-ab19a28d5a3a9cc4812b.js.map"
     ],
     "component---src-site-layouts-index-js": [
-      "component---src-site-layouts-index-js-16d85b854e843e0da9ad.js",
-      "component---src-site-layouts-index-js-16d85b854e843e0da9ad.js.map"
+      "component---src-site-layouts-index-js-6d999ea5b8864ebc1a88.js",
+      "component---src-site-layouts-index-js-6d999ea5b8864ebc1a88.js.map"
     ],
     "path---components-form-control-examples": [
       "path---components-form-control-examples-3999f0d5cbf2470b2c47.js",
@@ -498,6 +506,10 @@
       "path---demos-toolbar-examples-full-c6c857c21f2466721f09.js",
       "path---demos-toolbar-examples-full-c6c857c21f2466721f09.js.map"
     ],
+    "path---components-data-list-examples-full": [
+      "path---components-data-list-examples-full-01480d69af7cf88441ad.js",
+      "path---components-data-list-examples-full-01480d69af7cf88441ad.js.map"
+    ],
     "component---src-patternfly-utilities-flex-examples-index-js": [
       "component---src-patternfly-utilities-flex-examples-index-js-877934ad7ee0380c1446.js",
       "component---src-patternfly-utilities-flex-examples-index-js-877934ad7ee0380c1446.js.map"
@@ -547,8 +559,8 @@
       "path---components-form-examples-full-b33ddbb3299a54b39964.js.map"
     ],
     "app": [
-      "app-6eade46c1f93e437901f.js",
-      "app-6eade46c1f93e437901f.js.map"
+      "app-354b75cc5f5f6871ef8c.js",
+      "app-354b75cc5f5f6871ef8c.js.map"
     ],
     "path---utilities-alignment-examples": [
       "path---utilities-alignment-examples-39a3d5d7a55b8b961a20.js",
