@@ -1,0 +1,2 @@
+webpackJsonp([0xb3b37be83f37],{1016:function(t,e){t.exports={pathContext:{type:"component",category:"components",slug:"Tabs",name:"Tabs",title:"Tabs"}}}});
+//# sourceMappingURL=path---components-tabs-examples-full-f5e096faff33a9292567.js.map
