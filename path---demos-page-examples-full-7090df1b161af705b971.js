@@ -1,2 +1,0 @@
-webpackJsonp([58208145917902],{1088:function(e,t){e.exports={pathContext:{type:"demo",category:"demos",slug:"Page",name:"Page",title:"Page"}}}});
-//# sourceMappingURL=path---demos-page-examples-full-7090df1b161af705b971.js.map

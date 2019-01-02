@@ -1,2 +1,0 @@
-webpackJsonp([0xc30d6dcca881],{1046:function(t,e){t.exports={pathContext:{type:"component",category:"components",slug:"EmptyState",name:"EmptyState",title:"Emptystate"}}}});
-//# sourceMappingURL=path---components-empty-state-examples-dfac1d93f8916ca421fe.js.map
