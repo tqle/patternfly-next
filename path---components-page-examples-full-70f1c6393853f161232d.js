@@ -1,2 +1,2 @@
-webpackJsonp([42951263283007],{1063:function(e,t){e.exports={pathContext:{type:"component",category:"components",slug:"Page",name:"Page",title:"Page"}}}});
+webpackJsonp([42951263283007],{1051:function(e,t){e.exports={pathContext:{type:"component",category:"components",slug:"Page",name:"Page",title:"Page"}}}});
 //# sourceMappingURL=path---components-page-examples-full-70f1c6393853f161232d.js.map
