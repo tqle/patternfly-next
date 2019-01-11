@@ -1,2 +1,2 @@
-webpackJsonp([0xb2f6eedbb6f7],{1024:function(e,t){e.exports={pathContext:{type:"component",category:"components",slug:"Chip",name:"Chip",title:"Chip"}}}});
+webpackJsonp([0xb2f6eedbb6f7],{1022:function(e,t){e.exports={pathContext:{type:"component",category:"components",slug:"Chip",name:"Chip",title:"Chip"}}}});
 //# sourceMappingURL=path---components-chip-examples-full-cbc596ac557d1b55eac2.js.map
