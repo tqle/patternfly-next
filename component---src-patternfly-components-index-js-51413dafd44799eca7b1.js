@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{153:function(n,e,t){"use strict";t.r(e);var a=t(0),o=t.n(a);e.default=function(){return o.a.createElement("div",null,o.a.createElement("h1",null,"Components"))}}}]);
-//# sourceMappingURL=component---src-patternfly-components-index-js-51413dafd44799eca7b1.js.map
