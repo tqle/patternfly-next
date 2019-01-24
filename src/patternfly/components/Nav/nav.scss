@@ -1,4 +1,4 @@
-@import "../../patternfly-utilities";
+@import "../../patternfly-imports";
 
 .pf-c-nav {
   --pf-c-nav--Width: #{pf-size-prem(290px)};
@@ -6,9 +6,18 @@
 
   // List link
   --pf-c-nav__list-link--PaddingTop: var(--pf-global--spacer--md);
-  --pf-c-nav__list-link--PaddingRight: var(--pf-global--spacer--xl);
+  --pf-c-nav__list-link--PaddingRight: var(--pf-global--spacer--md);
+  --pf-c-nav__list-link--md--PaddingRight: var(--pf-global--spacer--xl);
   --pf-c-nav__list-link--PaddingBottom: var(--pf-global--spacer--sm);
-  --pf-c-nav__list-link--PaddingLeft: var(--pf-global--spacer--xl);
+  --pf-c-nav__list-link--PaddingLeft: var(--pf-global--spacer--md);
+  --pf-c-nav__list-link--md--PaddingLeft: var(--pf-global--spacer--xl);
+  --pf-c-nav__list-link--after--Width: #{pf-size-prem(50px)};
+  --pf-c-nav__list-link--after--Height: #{pf-size-prem(3px)};
+
+  @media screen and (min-width: $pf-global--breakpoint--md) {
+    --pf-c-nav__list-link--PaddingRight: var(--pf-c-nav__list-link--md--PaddingRight);
+    --pf-c-nav__list-link--PaddingLeft: var(--pf-c-nav__list-link--md--PaddingLeft);
+  }
 
   // font weight
   --pf-c-nav__list-link--FontWeight: var(--pf-global--FontWeight--normal);
@@ -21,28 +30,28 @@
   --pf-c-nav__list-link--active--Color: var(--pf-global--link--Color);
   --pf-c-nav__list-link--focus--Color: var(--pf-global--link--Color);
 
-  // background color
-  --pf-c-nav__list-link--BackgroundColor: transparent;
-  --pf-c-nav__list-link--hover--BackgroundColor: transparent;
-  --pf-c-nav__list-link--active--BackgroundColor: transparent;
-  --pf-c-nav__list-link--focus--BackgroundColor: transparent;
-
   // after
-  --pf-c-nav__list-link--after--Left: var(--pf-c-nav__list-link--PaddingLeft); // share padding value to properly position after
-  --pf-c-nav__list-link--after--BackgroundColor: transparent;
+  --pf-c-nav__list-link--after--Left: var(--pf-c-nav__list-link--PaddingLeft);
+  --pf-c-nav__list-link--after--md--Left: var(--pf-c-nav__list-link--md--PaddingLeft);
   --pf-c-nav__list-link--hover--after--BackgroundColor: var(--pf-global--link--Color);
   --pf-c-nav__list-link--active--after--BackgroundColor: var(--pf-global--link--Color);
   --pf-c-nav__list-link--focus--after--BackgroundColor: var(--pf-global--link--Color);
 
-  // hardcoding border bottom to match design spec
-  --pf-c-nav__list-link--after--Width: 3.125rem;
-  --pf-c-nav__list-link--after--Height: 3px;
+  @media screen and (min-width: $pf-global--breakpoint--md) {
+    --pf-c-nav__list-link--after--Left: var(--pf-c-nav__list-link--after--md--Left);
+  }
 
   // List simple link
   --pf-c-nav__simple-list-link--PaddingTop: var(--pf-global--spacer--sm);
   --pf-c-nav__simple-list-link--PaddingRight: var(--pf-global--spacer--xl);
   --pf-c-nav__simple-list-link--PaddingBottom: var(--pf-global--spacer--sm);
   --pf-c-nav__simple-list-link--PaddingLeft: var(--pf-global--spacer--xl);
+  --pf-c-nav__simple-list-link--nested--PaddingLeft: var(--pf-global--spacer--lg);
+  --pf-c-nav__simple-list-link--nested--md--PaddingLeft: calc(var(--pf-global--spacer--xl) + var(--pf-global--spacer--md));
+
+  @media screen and (min-width: $pf-global--breakpoint--md) {
+    --pf-c-nav__simple-list-link--nested--PaddingLeft: var(--pf-c-nav__simple-list-link--nested--md--PaddingLeft);
+  }
 
   // font
   --pf-c-nav__simple-list-link--FontWeight: var(--pf-global--FontWeight--normal);
@@ -56,7 +65,6 @@
   --pf-c-nav__simple-list-link--focus--Color: var(--pf-global--link--Color);
 
   // background
-  --pf-c-nav__simple-list-link--BackgroundColor: transparent;
   --pf-c-nav__simple-list-link--hover--BackgroundColor: #{$pf-color-black-150};
   --pf-c-nav__simple-list-link--active--BackgroundColor: #{$pf-color-black-150};
   --pf-c-nav__simple-list-link--focus--BackgroundColor: #{$pf-color-black-150};
@@ -64,11 +72,12 @@
   // List horizontal link
   --pf-c-nav__horizontal-list-item--MarginRight: var(--pf-global--spacer--xl);
   --pf-c-nav__horizontal-list-link--PaddingTop: var(--pf-global--spacer--md);
-  --pf-c-nav__horizontal-list-link--PaddingBottom: var(--pf-global--spacer--md);
-  --pf-c-nav__horizontal-list-link--m-tall--PaddingTop: var(--pf-global--spacer--lg);
-  --pf-c-nav__horizontal-list-link--m-tall--PaddingBottom: var(--pf-global--spacer--lg);
-  --pf-c-nav__horizontal-list-link--m-tall--transition--in: 250ms;
-  --pf-c-nav__horizontal-list-link--m-tall--transition--out: 150ms;
+  --pf-c-nav__horizontal-list-link--PaddingBottom: var(--pf-global--spacer--sm);
+  --pf-c-nav__horizontal-list-link--lg--PaddingBottom: var(--pf-global--spacer--lg);
+
+  @media screen and (min-width: $pf-global--breakpoint--lg) {
+    --pf-c-nav__horizontal-list-link--PaddingBottom: var(--pf-c-nav__horizontal-list-link--lg--PaddingBottom);
+  }
 
   // font
   --pf-c-nav__horizontal-list-link--FontWeight: var(--pf-global--FontWeight--normal);
@@ -81,23 +90,11 @@
   --pf-c-nav__horizontal-list-link--active--Color: var(--pf-global--active-color--300);
   --pf-c-nav__horizontal-list-link--focus--Color: var(--pf-global--active-color--300);
 
-  // background
-  --pf-c-nav__horizontal-list-link--BackgroundColor: transparent;
-  --pf-c-nav__horizontal-list-link--hover--BackgroundColor: transparent;
-  --pf-c-nav__horizontal-list-link--active--BackgroundColor: transparent;
-  --pf-c-nav__horizontal-list-link--focus--BackgroundColor: transparent;
-
   // after
-  --pf-c-nav__horizontal-list-link--after--Height: 3px;
-  --pf-c-nav__horizontal-list-link--after--BackgroundColor: transparent;
+  --pf-c-nav__horizontal-list-link--after--Height: #{pf-size-prem(3px)};
   --pf-c-nav__horizontal-list-link--hover--after--BackgroundColor: var(--pf-global--active-color--300);
   --pf-c-nav__horizontal-list-link--active--after--BackgroundColor: var(--pf-global--active-color--300);
   --pf-c-nav__horizontal-list-link--focus--after--BackgroundColor: var(--pf-global--active-color--300);
-
-  // List tertiary
-  --pf-c-nav__tertiary-list--Padding: var(--pf-global--spacer--md);
-  --pf-c-nav__tertiary-list--BoxShadow: var(--pf-global--BoxShadow--lg-bottom);
-  --pf-c-nav__tertiary-list--BackgroundColor: var(--pf-global--BackgroundColor--100);
 
   // List tertiary item
   --pf-c-nav__tertiary-list-item--MarginRight: var(--pf-global--spacer--xl);
@@ -105,7 +102,7 @@
   --pf-c-nav__tertiary-list-link--PaddingBottom: var(--pf-global--spacer--sm);
 
   // font
-  --pf-c-nav__tertiary-list-link--FontWeight: var(--pf-global--link--normal);
+  --pf-c-nav__tertiary-list-link--FontWeight: var(--pf-global--FontWeight--normal);
   --pf-c-nav__tertiary-list-link--active--FontWeight: var(--pf-global--FontWeight--bold);
   --pf-c-nav__tertiary-list-link--focus--FontWeight: var(--pf-global--FontWeight--bold);
 
@@ -115,15 +112,8 @@
   --pf-c-nav__tertiary-list-link--active--Color: var(--pf-global--link--Color);
   --pf-c-nav__tertiary-list-link--focus--Color: var(--pf-global--link--Color);
 
-  // background
-  --pf-c-nav__tertiary-list-link--BackgroundColor: transparent;
-  --pf-c-nav__tertiary-list-link--hover--BackgroundColor: transparent;
-  --pf-c-nav__tertiary-list-link--active--BackgroundColor: transparent;
-  --pf-c-nav__tertiary-list-link--focus--BackgroundColor: transparent;
-
   // after
-  --pf-c-nav__tertiary-list-link--after--Height: 3px;
-  --pf-c-nav__tertiary-list-link--after--BackgroundColor: transparent;
+  --pf-c-nav__tertiary-list-link--after--Height: #{pf-size-prem(3px)};
   --pf-c-nav__tertiary-list-link--hover--after--BackgroundColor: var(--pf-global--link--Color);
   --pf-c-nav__tertiary-list-link--active--after--BackgroundColor: var(--pf-global--link--Color);
   --pf-c-nav__tertiary-list-link--focus--after--BackgroundColor: var(--pf-global--link--Color);
@@ -131,7 +121,6 @@
   // Subnav links
   --pf-c-nav__subnav--MarginTop: var(--pf-global--spacer--sm);
   --pf-c-nav__subnav--MaxHeight: #{pf-size-prem(600px)};
-  --pf-c-nav__subnav-item--PaddingLeft: calc(var(--pf-global--spacer--xl) + var(--pf-global--spacer--md)); // automate this value based on previously set values
 
   // List toggle
   --pf-c-nav__list-toggle--PaddingRight: var(--pf-global--spacer--sm);
@@ -160,7 +149,6 @@
   // Modifier - current item
   --pf-c-nav__list-link--m-current--Color: var(--pf-global--link--Color);
   --pf-c-nav__list-link--m-current--FontWeight: var(--pf-global--FontWeight--semi-bold);
-  --pf-c-nav__list-link--m-current--BackgroundColor: transparent;
   --pf-c-nav__list-link--m-current--after--BackgroundColor: var(--pf-global--link--Color);
 
   // Modifier - simple list current
@@ -168,17 +156,21 @@
   --pf-c-nav__simple-list-link--m-current--FontWeight: var(--pf-global--FontWeight--semi-bold);
   --pf-c-nav__simple-list-link--m-current--BackgroundColor: #{$pf-color-black-150};
 
-  // Modifier - current item
-  --pf-c-nav__list-horizontal-link--m-current--Color: var(--pf-global--active-color--300);
-  --pf-c-nav__list-horizontal-link--m-current--FontWeight: var(--pf-global--FontWeight--bold);
-  --pf-c-nav__list-horizontal-link--m-current--BackgroundColor: transparent;
-  --pf-c-nav__list-horizontal-link--m-current--after--BackgroundColor: var(--pf-global--active-color--300);
+  // Modifier - simple list separator
+  --pf-c-nav__simple-list-link--m-separator--after--Left: var(--pf-c-nav__simple-list-link--PaddingLeft);
+  --pf-c-nav__simple-list-link--m-separator--after--Height: var(--pf-global--BorderWidth--sm);
+  --pf-c-nav__simple-list-link--m-separator--after--Background: var(--pf-global--BorderColor--light);
+  --pf-c-nav__simple-list-link--m-separator--after--Bottom: calc(-1 * var(--pf-c-nav__simple-list-link--m-separator--after--Height));
 
   // Modifier - current item
-  --pf-c-nav__list-tertiary-link--m-current--Color: var(--pf-global--link--Color);
-  --pf-c-nav__list-tertiary-link--m-current--FontWeight: var(--pf-global--FontWeight--semi-bold);
-  --pf-c-nav__list-tertiary-link--m-current--BackgroundColor: transparent;
-  --pf-c-nav__list-tertiary-link--m-current--after--BackgroundColor: var(--pf-global--link--Color);
+  --pf-c-nav__horizontal-list-link--m-current--Color: var(--pf-global--active-color--300);
+  --pf-c-nav__horizontal-list-link--m-current--FontWeight: var(--pf-global--FontWeight--bold);
+  --pf-c-nav__horizontal-list-link--m-current--after--BackgroundColor: var(--pf-global--active-color--300);
+
+  // Modifier - current item
+  --pf-c-nav__tertiary-list-link--m-current--Color: var(--pf-global--link--Color);
+  --pf-c-nav__tertiary-list-link--m-current--FontWeight: var(--pf-global--FontWeight--semi-bold);
+  --pf-c-nav__tertiary-list-link--m-current--after--BackgroundColor: var(--pf-global--link--Color);
 
   // Base styling
   overflow-x: auto;
@@ -200,7 +192,7 @@
 }
 
 // Set width when nav is child of sidebar to prevent collapsing
-.pf-l-page__sidebar .pf-c-nav {
+.pf-c-page__sidebar .pf-c-nav {
   @media screen and (min-width: $pf-global--breakpoint--md) {
     width: var(--pf-c-nav--Width);
   }
@@ -211,6 +203,18 @@
   // Item
   > .pf-c-nav__item {
     position: relative;
+  }
+
+  > .pf-c-nav__item > .pf-c-nav__link {
+    // After - border bottom treatment for top level links
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: var(--pf-c-nav__list-link--after--Left);
+      width: var(--pf-c-nav__list-link--after--Width);
+      height: var(--pf-c-nav__list-link--after--Height);
+      content: "";
+    }
   }
 
   // Link
@@ -226,11 +230,11 @@
     font-weight: var(--pf-c-nav__list-link--FontWeight);
     color: var(--pf-c-nav__list-link--Color);
 
+
     // States
     &.pf-m-hover,
     &:hover {
-      color: var(--pf-c-nav__list-link--hover--Color);
-      background-color: var(--pf-c-nav__list-link--hover--BackgroundColor);
+      --pf-c-nav__list-link--Color: var(--pf-c-nav__list-link--hover--Color);
 
       &::after {
         background-color: var(--pf-c-nav__list-link--hover--after--BackgroundColor);
@@ -239,9 +243,8 @@
 
     &.pf-m-active,
     &:active {
-      font-weight: var(--pf-c-nav__list-link--active--FontWeight);
-      color: var(--pf-c-nav__list-link--active--Color);
-      background-color: var(--pf-c-nav__list-link--active--BackgroundColor);
+      --pf-c-nav__list-link--FontWeight: var(--pf-c-nav__list-link--active--FontWeight);
+      --pf-c-nav__list-link--Color: var(--pf-c-nav__list-link--active--Color);
 
       &::after {
         background-color: var(--pf-c-nav__list-link--active--after--BackgroundColor);
@@ -250,40 +253,26 @@
 
     &.pf-m-focus,
     &:focus {
-      font-weight: var(--pf-c-nav__list-link--focus--FontWeight);
-      color: var(--pf-c-nav__list-link--focus--Color);
-      background-color: var(--pf-c-nav__list-link--focus--BackgroundColor);
+      --pf-c-nav__list-link--FontWeight: var(--pf-c-nav__list-link--focus--FontWeight);
+      --pf-c-nav__list-link--Color: var(--pf-c-nav__list-link--focus--Color);
 
       &::after {
         background-color: var(--pf-c-nav__list-link--focus--after--BackgroundColor);
       }
-    }
-
-    // After - border bottom treatment
-    &::after {
-      position: absolute;
-      bottom: 0;
-      left: var(--pf-c-nav__list-link--after--Left);
-      width: var(--pf-c-nav__list-link--after--Width);
-      height: var(--pf-c-nav__list-link--after--Height);
-      content: "";
-      background-color: var(--pf-c-nav__list-link--after--BackgroundColor);
     }
   }
 
   // States
   .pf-m-current.pf-c-nav__link,
   .pf-m-current > .pf-c-nav__link {
-    font-weight: var(--pf-c-nav__list-link--m-current--FontWeight);
-    color: var(--pf-c-nav__list-link--m-current--Color);
-    background-color: var(--pf-c-nav__list-link--m-current--BackgroundColor);
+    --pf-c-nav__list-link--FontWeight: var(--pf-c-nav__list-link--m-current--FontWeight);
+    --pf-c-nav__list-link--Color: var(--pf-c-nav__list-link--m-current--Color);
 
     &::after {
       background-color: var(--pf-c-nav__list-link--m-current--after--BackgroundColor);
     }
   }
 }
-
 
 // Toggle caret
 .pf-c-nav__toggle {
@@ -321,43 +310,60 @@
       var(--pf-c-nav__simple-list-link--PaddingLeft);
     font-weight: var(--pf-c-nav__simple-list-link--FontWeight);
     color: var(--pf-c-nav__simple-list-link--Color);
-    background-color: var(--pf-c-nav__simple-list-link--BackgroundColor);
 
     // States
     &.pf-m-hover,
     &:hover {
-      color: var(--pf-c-nav__simple-list-link--active--Color);
-      background-color: var(--pf-c-nav__simple-list-link--active--BackgroundColor);
+      --pf-c-nav__simple-list-link--Color: var(--pf-c-nav__simple-list-link--hover--Color);
+
+      background-color: var(--pf-c-nav__simple-list-link--hover--BackgroundColor);
     }
 
     &.pf-m-focus,
     &:focus {
-      font-weight: var(--pf-c-nav__simple-list-link--focus--FontWeight);
-      color: var(--pf-c-nav__simple-list-link--focus--Color);
+      --pf-c-nav__simple-list-link--FontWeight: var(--pf-c-nav__simple-list-link--focus--FontWeight);
+      --pf-c-nav__simple-list-link--Color: var(--pf-c-nav__simple-list-link--focus--Color);
+
       background-color: var(--pf-c-nav__simple-list-link--focus--BackgroundColor);
     }
 
     &.pf-m-active,
     &:active {
-      font-weight: var(--pf-c-nav__simple-list-link--active--FontWeight);
-      color: var(--pf-c-nav__simple-list-link--active--Color);
+      --pf-c-nav__simple-list-link--FontWeight: var(--pf-c-nav__simple-list-link--active--FontWeight);
+      --pf-c-nav__simple-list-link--Color: var(--pf-c-nav__simple-list-link--active--Color);
+
       background-color: var(--pf-c-nav__simple-list-link--active--BackgroundColor);
     }
 
     &.pf-m-current {
-      font-weight: var(--pf-c-nav__simple-list-link--m-current--FontWeight);
-      color: var(--pf-c-nav__simple-list-link--m-current--Color);
+      --pf-c-nav__simple-list-link--FontWeight: var(--pf-c-nav__simple-list-link--m-current--FontWeight);
+      --pf-c-nav__simple-list-link--Color: var(--pf-c-nav__simple-list-link--m-current--Color);
+
       background-color: var(--pf-c-nav__simple-list-link--m-current--BackgroundColor);
+    }
+
+    &.pf-m-separator {
+      position: relative;
+      margin-bottom: var(--pf-c-nav__simple-list-link--m-separator--after--Height);
+
+      &::after {
+        position: absolute;
+        right: 0;
+        bottom: var(--pf-c-nav__simple-list-link--m-separator--after--Bottom);
+        left: var(--pf-c-nav__simple-list-link--m-separator--after--Left);
+        height: var(--pf-c-nav__simple-list-link--m-separator--after--Height);
+        content: "";
+        background: var(--pf-c-nav__simple-list-link--m-separator--after--Background);
+      }
     }
 
     // Adjust padding of descendant links
     .pf-c-nav__item & {
-      padding-left: var(--pf-c-nav__subnav-item--PaddingLeft);
-    }
+      --pf-c-nav__simple-list-link--PaddingLeft: var(--pf-c-nav__simple-list-link--nested--PaddingLeft);
 
-    // If child of list, hide bottom border treatment
-    &::after {
-      display: none;
+      &.pf-m-separator::after {
+        --pf-c-nav__simple-list-link--m-separator--after--Left: var(--pf-c-nav__simple-list-link--nested--PaddingLeft);
+      }
     }
   }
 }
@@ -385,14 +391,11 @@
     font-weight: var(--pf-c-nav__horizontal-list-link--FontWeight);
     color: var(--pf-c-nav__horizontal-list-link--Color);
     white-space: nowrap;
-    background-color: var(--pf-c-nav__horizontal-list-link--BackgroundColor);
-    transition: var(--pf-c-nav__horizontal-list-link--m-tall--transition--in);
 
     // States
     &.pf-m-hover,
     &:hover {
-      color: var(--pf-c-nav__horizontal-list-link--hover--Color);
-      background-color: var(--pf-c-nav__horizontal-list-link--hover--BackgroundColor);
+      --pf-c-nav__horizontal-list-link--Color: var(--pf-c-nav__horizontal-list-link--hover--Color);
 
       &::after {
         background-color: var(--pf-c-nav__horizontal-list-link--hover--after--BackgroundColor);
@@ -401,9 +404,8 @@
 
     &.pf-m-focus,
     &:focus {
-      font-weight: var(--pf-c-nav__horizontal-list-link--focus--FontWeight);
-      color: var(--pf-c-nav__horizontal-list-link--focus--Color);
-      background-color: var(--pf-c-nav__horizontal-list-link--focus--BackgroundColor);
+      --pf-c-nav__horizontal-list-link--FontWeight: var(--pf-c-nav__horizontal-list-link--focus--FontWeight);
+      --pf-c-nav__horizontal-list-link--Color: var(--pf-c-nav__horizontal-list-link--focus--Color);
 
       &::after {
         background-color: var(--pf-c-nav__horizontal-list-link--focus--after--BackgroundColor);
@@ -412,9 +414,8 @@
 
     &.pf-m-active,
     &:active {
-      font-weight: var(--pf-c-nav__horizontal-list-link--active--FontWeight);
-      color: var(--pf-c-nav__horizontal-list-link--active--Color);
-      background-color: var(--pf-c-nav__horizontal-list-link--active--BackgroundColor);
+      --pf-c-nav__horizontal-list-link--FontWeight: var(--pf-c-nav__horizontal-list-link--active--FontWeight);
+      --pf-c-nav__horizontal-list-link--Color: var(--pf-c-nav__horizontal-list-link--active--Color);
 
       &::after {
         background-color: var(--pf-c-nav__horizontal-list-link--active--after--BackgroundColor);
@@ -422,12 +423,11 @@
     }
 
     &.pf-m-current {
-      font-weight: var(--pf-c-nav__list-horizontal-link--m-current--FontWeight);
-      color: var(--pf-c-nav__list-horizontal-link--m-current--Color);
-      background-color: var(--pf-c-nav__list-horizontal-link--m-current--BackgroundColor);
+      --pf-c-nav__horizontal-list-link--FontWeight: var(--pf-c-nav__horizontal-list-link--m-current--FontWeight);
+      --pf-c-nav__horizontal-list-link--Color: var(--pf-c-nav__horizontal-list-link--m-current--Color);
 
       &::after {
-        background-color: var(--pf-c-nav__list-horizontal-link--m-current--after--BackgroundColor);
+        background-color: var(--pf-c-nav__horizontal-list-link--m-current--after--BackgroundColor);
       }
     }
 
@@ -440,15 +440,6 @@
       width: 100%;
       height: var(--pf-c-nav__horizontal-list-link--after--Height);
       content: "";
-      background-color: var(--pf-c-nav__horizontal-list-link--after--BackgroundColor);
-    }
-  }
-
-  &.pf-m-tall {
-    .pf-c-nav__link {
-      padding-top: var(--pf-c-nav__horizontal-list-link--m-tall--PaddingTop);
-      padding-bottom: var(--pf-c-nav__horizontal-list-link--m-tall--PaddingBottom);
-      transition: var(--pf-c-nav__horizontal-list-link--m-tall--transition--out);
     }
   }
 }
@@ -466,13 +457,11 @@
     font-weight: var(--pf-c-nav__tertiary-list-link--FontWeight);
     color: var(--pf-c-nav__tertiary-list-link--Color);
     white-space: nowrap;
-    background-color: var(--pf-c-nav__tertiary-list-link--BackgroundColor);
 
     // Hover
     &.pf-m-hover,
     &:hover {
-      color: var(--pf-c-nav__tertiary-list-link--hover--Color);
-      background-color: var(--pf-c-nav__tertiary-list-link--hover--BackgroundColor);
+      --pf-c-nav__tertiary-list-link--Color: var(--pf-c-nav__tertiary-list-link--hover--Color);
 
       &::after {
         background-color: var(--pf-c-nav__tertiary-list-link--hover--after--BackgroundColor);
@@ -481,9 +470,8 @@
 
     &.pf-m-focus,
     &:focus {
-      font-weight: var(--pf-c-nav__tertiary-list-link--focus--FontWeight);
-      color: var(--pf-c-nav__tertiary-list-link--focus--Color);
-      background-color: var(--pf-c-nav__tertiary-list-link--focus--BackgroundColor);
+      --pf-c-nav__tertiary-list-link--FontWeight: var(--pf-c-nav__tertiary-list-link--focus--FontWeight);
+      --pf-c-nav__tertiary-list-link--Color: var(--pf-c-nav__tertiary-list-link--focus--Color);
 
       &::after {
         background-color: var(--pf-c-nav__tertiary-list-link--focus--after--BackgroundColor);
@@ -492,9 +480,8 @@
 
     &.pf-m-active,
     &:active {
-      font-weight: var(--pf-c-nav__tertiary-list-link--active--FontWeight);
-      color: var(--pf-c-nav__tertiary-list-link--active--Color);
-      background-color: var(--pf-c-nav__tertiary-list-link--active--BackgroundColor);
+      --pf-c-nav__tertiary-list-link--FontWeight: var(--pf-c-nav__tertiary-list-link--active--FontWeight);
+      --pf-c-nav__tertiary-list-link--Color: var(--pf-c-nav__tertiary-list-link--active--Color);
 
       &::after {
         background-color: var(--pf-c-nav__tertiary-list-link--active--after--BackgroundColor);
@@ -502,12 +489,11 @@
     }
 
     &.pf-m-current {
-      font-weight: var(--pf-c-nav__list-tertiary-link--m-current--FontWeight);
-      color: var(--pf-c-nav__list-tertiary-link--m-current--Color);
-      background-color: var(--pf-c-nav__list-tertiary-link--m-current--BackgroundColor);
+      --pf-c-nav__tertiary-list-link--FontWeight: var(--pf-c-nav__tertiary-list-link--m-current--FontWeight);
+      --pf-c-nav__tertiary-list-link--Color: var(--pf-c-nav__tertiary-list-link--m-current--Color);
 
       &::after {
-        background-color: var(--pf-c-nav__list-tertiary-link--m-current--after--BackgroundColor);
+        background-color: var(--pf-c-nav__tertiary-list-link--m-current--after--BackgroundColor);
       }
     }
 
@@ -520,7 +506,6 @@
       width: 100%;
       height: var(--pf-c-nav__tertiary-list-link--after--Height);
       content: "";
-      background-color: var(--pf-c-nav__tertiary-list-link--after--BackgroundColor);
     }
   }
 }

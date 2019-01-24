@@ -1,6 +1,6 @@
 # PatternFly Next
 
-## Install
+## Install 
 
 - This assumes an environment is already set up for npm packages - if not, please use npm init following the steps at [https://docs.npmjs.com/getting-started/using-a-package.json](https://docs.npmjs.com/getting-started/using-a-package.json).
 - run `npm install @patternfly/patternfly-next --save`
@@ -28,6 +28,11 @@ To setup the PatternFly Next development environment:
 - open your browser to `http://localhost:8000`
 
 After working on your contribution, check for [accessibility violations](#testing-for-accessibility).
+
+## Set PatternFly Next IP Address
+
+If Gatsby needs to run on local IP for testing on other machines or devices use `npm run dev:expose` which sets host to `0.0.0.0`.
+If you want to set host to a specific IP address for example `172.17.12.1` run `npm run dev -H 172.17.12.1`.
 
 ### Create a new component
 
