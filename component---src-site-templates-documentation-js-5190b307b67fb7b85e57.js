@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[73],{132:function(t,e,n){"use strict";n.r(e),n.d(e,"GetDocumentationContent",function(){return r});var a=n(0),o=n.n(a);e.default=function(t){var e=t.data.markdownRemark.html;return o.a.createElement("div",{className:"documentation-template"},o.a.createElement("div",{className:"documentation-template__content",dangerouslySetInnerHTML:{__html:e}}))};var r="2638634658"}}]);
+//# sourceMappingURL=component---src-site-templates-documentation-js-5190b307b67fb7b85e57.js.map
